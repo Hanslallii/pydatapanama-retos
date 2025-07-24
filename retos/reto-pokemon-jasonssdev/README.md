@@ -18,17 +18,27 @@ Este notebook tiene como propósito presentar un reto de programación para la c
 
 ### Pregunta 1: ¿Cuántos pokemones hay en total?
 ```python
-#
+#1184
 ```
 
 ### Pregunta 2: ¿Cuáles son los 5 tipos más comunes (columna `Primary Typing`)?
 ```python
-#
+#Los 5 tipos más comunes (Primary Typing) son:
+
+Water – 145 Pokémon
+
+Normal – 128
+
+Grass – 113
+
+Bug – 89
+
+Fire – 77
 ```
 
 ### Pregunta 3: ¿Cuál es el promedio de Velocidad `(Speed)` de todos los pokemones?
 ```python
-#
+#Promedio de velocidad: 69.73
 ```
 
 ---
@@ -37,17 +47,25 @@ Este notebook tiene como propósito presentar un reto de programación para la c
 
 ### Pregunta 4: ¿Cuál es la correlación entre las estadísticas `Attack`, `Defense` y `Speed`? Muestra un heatmap.
 ```python
-#
+#Hay una correlación moderada positiva entre Attack y Speed (≈ 0.45)
+
+Hay una correlación baja entre Defense y Speed (≈ 0.12)
+
+Attack y Defense tienen una correlación baja-moderada positiva (≈ 0.35)
 ```
 
 ### Pregunta 5: ¿Qué tipo (`Primary Typing`) tiene el mayor promedio de `Attack`?
 ```python
-#
+#El tipo primario con el promedio de ataque más alto es dragon, con un promedio de 105.98 puntos.
+
+
 ```
 
 ### Pregunta 6: Crear un histograma de la variable `Speed`
 ```python
-#
+#El tipo primario con la defensa promedio más alta es steel, con un promedio de 115.63 puntos.
+
+
 ```
 
 ---
@@ -56,17 +74,25 @@ Este notebook tiene como propósito presentar un reto de programación para la c
 
 ### Pregunta 7: ¿Qué pokemones tienen estadísticas totales (`Base Stat Total`) superiores al percentil 90? ¿Qué tipos predominan en este grupo?
 ```python
-#
+#Los Pokémon que tienen un total de estadísticas por encima de 590 (el 90% más alto) son los más fuertes.
+En ese grupo, los tipos que más se repiten son: Dragon, Psychic, Water, Steel y Normal.
+Así que básicamente los dragones y psíquicos dominan en esos Pokémon súper poderosos.
+
+
 ```
 
 ### Pregunta 8: Clasifica a los pokemones en tres categorías según su `Base Stat Total`: "Débil", "Normal" y "Fuerte". Luego, muestra la distribución de estas categorías en un gráfico de barras.
 ```python
-#
+#Se clasificaron los Pokémon en tres grupos según su poder total: "Débil", "Normal" y "Fuerte". Al hacer esto, se vio que hay 410 Pokémon fuertes, 390 débiles y 384 normales. La mayoría cae en la categoría de Fuerte. Esto se puede ver también en la gráfica de barras que muestra cómo se distribuyen estas tres categorías.
+
+
 ```
 
 ### Pregunta 9: Crear un pairplot de `Attack`, `Defense`, `Speed` y colorear por `Legendary Status`
 ```python
-#
+#En el gráfico se puede ver que los pokémon legendarios casi siempre tienen estadísticas más altas en ataque, defensa y velocidad en comparación con los que no lo son. También se nota que los legendarios están más agrupados en las esquinas superiores del gráfico, o sea que destacan bastante en las tres estadísticas. Mientras que los no legendarios están más repartidos y muchos tienen stats bajos.
+
+
 ```
 
 ---
